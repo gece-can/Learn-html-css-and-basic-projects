@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - İtems</title>
+    
+    <style>
+        
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 75%;
+            min-height: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            background-color: white;
+        }
+
+        .box {
+            text-align: center;
+            width: 200px;
+            height: 100px;
+            background-color: azure;
+            margin: 10px;
+            border: 1px solid black;
+
+
+        }
+
+        .box-1 {
+            flex-grow: 1;
+            background-color: red;
+        }
+
+        .box-2 {
+            flex-grow: 2;
+            background-color: blue;
+           /*  align-self: flex-start; */
+        }
+
+        .box-3 {
+            
+            flex-grow: 3;
+            background-color: white;
+            
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="box box-1">
+
+
+        </div>
+
+        <div class="box box-2">
+            
+
+        </div>
+
+        <div class="box box-3">
+            
+
+        </div>
+        
+
+
+    </div>
+    
+</body>
+</html>

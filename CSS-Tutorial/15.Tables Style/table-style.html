@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Styles</title>
+    <style>
+
+        Table, tr, td, th{
+            border: 2px solid black;
+            border-collapse: ;
+            border-radius: 10px;
+            
+        }
+
+        table{
+            width: 80%;
+            margin: 0 auto;
+            font-size: 1.5em;
+            
+        }
+
+        th,td{
+            padding: 10px;
+           
+        }
+
+        thead tr{
+            background-color: green;
+            color: white;
+
+        }
+
+        tbody tr{
+            text-align: center;
+        }
+
+        tbody tr:nth-child(even){
+            background-color: #f2f2f2;
+        }
+
+        tbody tr:hover{
+            background-color: #ddd;
+        }
+
+
+    </style>
+</head>
+<body>
+    <Table>
+        <thead>
+            <tr>
+                <th>İsim</th>
+                <th>Soyisim</th>
+                <th>Meslek</th>
+                <th>Yaş</th>
+                <th>Maaş</th>
+            </tr>
+        </thead>    
+
+        <Tbody>
+            <tr>
+                <td>Can</td>
+                <td>Gece</td>
+                <td>Front-End Developer</td>
+                <td>21</td>
+                <td>5000</td>
+            </tr>
+
+            <tr>
+                <td>Ali</td>
+                <td>Durmaz</td>
+                <td>Bilişim Teknikeri</td>
+                <td>20</td>
+                <td>3000</td
+            </tr>
+            
+
+            <tr>
+                <td>Ahmet</td>
+                <td>Kanar</td>
+                <td>Bilgisayar Mühendisi</td>
+                <td>30</td>
+                <td>4500</td>
+            </tr>
+
+            <tr>
+                <td>Kıvanç</td>
+                <td>Karabağ</td>
+                <td>Back-End Devoloper</td>
+                <td>34</td>
+                <td>7500</td>
+            </tr>
+
+        </Tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+    </Table>
+</body>
+</html>

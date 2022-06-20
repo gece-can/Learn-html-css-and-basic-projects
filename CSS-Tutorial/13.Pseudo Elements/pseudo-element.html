@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element</title>
+
+    <style>
+
+        .para1{
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+
+        }
+
+        /* İlk Satır */
+        .para1::first-line{
+            color: red;
+
+        }
+
+        /* İlk Harf */
+        .para1::first-letter{
+            color: blue;
+            font-size: 50px;
+
+        }
+
+        
+        .para1::after{
+            content: url("/CSS-Tutorial/3.background-colors/images/logo.png");
+
+        }
+        
+        
+        .para1::before{
+            content: "paragraf öncesi";
+
+        }
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <p class="para1">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Tenetur eos cum magnam perspiciatis omnis expedita iste vero modi vel tempore beatae, 
+        autem officia. Ratione expedita natus ut error necessitatibus laudantium dolorum 
+        saepe pariatur harum nihil ad libero laboriosam fuga, itaque asperiores.
+        Assumenda enim voluptates blanditiis quia quod obcaecati aliquam magnam 
+        dolores porro dolore officiis, quo accusantium ad optio iusto voluptatem temporibus
+        nobis minima illum facere, cum magni, voluptatum quos. Sapiente ipsam totam 
+        distinctio earum id quia itaque, quas labore sed libero voluptate quod ipsum 
+        quaerat quasi amet, natus debitis maiores nihil voluptatum deserunt possimus 
+        nesciunt voluptatibus magnam. Soluta, ipsum iure!
+    </p>
+    
+</body>
+</html>
